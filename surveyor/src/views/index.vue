@@ -61,17 +61,17 @@
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-stretch">
-          <div class="md:col-span-6 relative group overflow-hidden h-[400px]">
+          <div class="md:col-span-6 relative group overflow-hidden h-[500px]">
             <img src="@/assets/images/about.png" class="w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="Survey Team Work">
             <div class="absolute bottom-6 left-6 bg-white p-6 shadow-xl max-w-[160px]">
               <span class="text-3xl font-bold text-gray-900 block tracking-tight">320+</span>
               <span class="text-[10px] uppercase font-bold tracking-widest text-gray-400 mt-1 block">Satisfy Client</span>
             </div>
           </div>
-          <div class="md:col-span-3 overflow-hidden h-[400px] group">
+          <div class="md:col-span-3 overflow-hidden h-[500px] group">
             <img src="@/assets/images/about2.png" class="w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="Surveyor equipment closeup">
           </div>
-          <div class="md:col-span-3 overflow-hidden h-[400px] group">
+          <div class="md:col-span-3 overflow-hidden h-[500px] group">
             <img src="@/assets/images/about3.png" class="w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="Site analysis mapping">
           </div>
         </div>
@@ -85,8 +85,8 @@
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left mb-16">
           <div class="bg-white text-gray-900 group cursor-pointer overflow-hidden">
-            <div class="h-64 overflow-hidden relative">
-              <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="Boundary Surveys">
+            <div class="h-[400px] overflow-hidden relative">
+              <img src="@/assets/images/service1.png" class="w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="Boundary Surveys">
               <div class="absolute top-4 left-4 bg-emerald-800 text-white p-2 text-xs font-bold">✦</div>
             </div>
             <div class="p-6">
@@ -96,8 +96,8 @@
           </div>
 
           <div class="bg-white text-gray-900 group cursor-pointer overflow-hidden">
-            <div class="h-64 overflow-hidden relative">
-              <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="Topographic Mapping">
+            <div class="h-[400px] overflow-hidden relative">
+              <img src="@/assets/images/service2.png" class="w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="Topographic Mapping">
               <div class="absolute top-4 left-4 bg-emerald-800 text-white p-2 text-xs font-bold">✦</div>
             </div>
             <div class="p-6">
@@ -107,8 +107,8 @@
           </div>
 
           <div class="bg-white text-gray-900 group cursor-pointer overflow-hidden">
-            <div class="h-64 overflow-hidden relative">
-              <img src="https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="Construction Staking">
+            <div class="h-[400px] overflow-hidden relative">
+              <img src="@/assets/images/service3.png" class="w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="Construction Staking">
               <div class="absolute top-4 left-4 bg-emerald-800 text-white p-2 text-xs font-bold">✦</div>
             </div>
             <div class="p-6">
@@ -163,7 +163,7 @@
         </div>
 
         <div class="h-[660px] overflow-hidden">
-          <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1600&q=80" class="w-full h-full object-cover object-center" alt="Surveyors standing on open development range layout">
+          <img src="@/assets/images/whychose.png" class="w-full h-full object-cover object-center" alt="Surveyors standing on open development range layout">
         </div>
       </div>
     </section>
