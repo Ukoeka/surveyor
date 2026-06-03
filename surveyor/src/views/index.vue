@@ -169,7 +169,7 @@
     </section>
 
     <section class="py-24 bg-[#0a2e1d] text-white">
-      <div class="max-w-7xl mx-auto px-6">
+      <div class="w-[80%] mx-auto px-6">
         <span class="text-[10px] tracking-widest uppercase font-bold text-emerald-400/70 block mb-3">Our Project</span>
         <h2 class="text-3xl md:text-4xl font-light tracking-tight mb-16 border-b border-emerald-800/60 pb-8">Our Surveying Projects</h2>
 
@@ -193,7 +193,7 @@
               <a href="#" class="inline-block border border-emerald-700 px-6 py-2.5 text-xs font-semibold tracking-wider hover:bg-white hover:text-gray-900 transition">Learn More</a>
             </div>
 
-            <div class="lg:col-span-8 h-[360px] md:h-[420px] overflow-hidden">
+            <div class="lg:col-span-8 h-[500px] md:h-[500px] overflow-hidden">
               <img :src="project.image" class="w-full h-full object-cover shadow-2xl hover:scale-105 transition duration-700" :alt="project.title">
             </div>
           </div>
@@ -202,7 +202,7 @@
     </section>
 
     <section class="py-24 bg-neutral-50">
-      <div class="max-w-7xl mx-auto px-6">
+      <div class="w-[80%] mx-auto px-6">
         <span class="text-[10px] tracking-widest uppercase font-bold text-gray-400 block mb-3">Testimonial</span>
         <h2 class="text-3xl md:text-4xl font-light tracking-tight mb-16 text-gray-900">What Our Clients Say</h2>
 
@@ -264,7 +264,7 @@
     </section>
 
     <section id="appointment" class="py-20 bg-white">
-      <div class="max-w-7xl mx-auto px-6">
+      <div class="w-[80%] mx-auto px-6">
         <div class="grid grid-cols-1 lg:grid-cols-12 items-stretch shadow-2xl">
           <div class="lg:col-span-5 bg-white p-10 md:p-14 flex flex-col justify-center">
             <span class="text-[10px] tracking-widest uppercase font-bold text-gray-400 block mb-2">Get Started</span>
@@ -293,7 +293,7 @@
             </form>
           </div>
           <div class="lg:col-span-7 h-[400px] lg:h-auto min-h-[450px]">
-            <img src="https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=1200&q=80" class="w-full h-full object-cover" alt="Field survey process booking image">
+            <img src="@/assets/images/contact.png" class="w-full h-full object-cover" alt="Field survey process booking image">
           </div>
         </div>
       </div>
@@ -330,7 +330,7 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
           <div class="bg-white shadow-sm overflow-hidden group cursor-pointer border border-gray-100">
             <div class="h-52 overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="Land survey development article">
+              <img src="@/assets/images/service1.png" class="w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="Land survey development article">
             </div>
             <div class="p-6">
               <span class="text-[9px] font-bold text-gray-400 tracking-wider block mb-2">March 10, 2026</span>
@@ -339,7 +339,7 @@
           </div>
           <div class="bg-white shadow-sm overflow-hidden group cursor-pointer border border-gray-100">
             <div class="h-52 overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="Types of land surveys article">
+              <img src="@/assets/images/service2.png" class="w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="Types of land surveys article">
             </div>
             <div class="p-6">
               <span class="text-[9px] font-bold text-gray-400 tracking-wider block mb-2">March 10, 2026</span>
@@ -348,7 +348,7 @@
           </div>
           <div class="bg-white shadow-sm overflow-hidden group cursor-pointer border border-gray-100">
             <div class="h-52 overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="Resolving property disputes article">
+              <img src="@/assets/images/service3.png" class="w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="Resolving property disputes article">
             </div>
             <div class="p-6">
               <span class="text-[9px] font-bold text-gray-400 tracking-wider block mb-2">January 16, 2022</span>
@@ -405,6 +405,11 @@
 <script setup>
 import { ref } from 'vue'
 
+import project1 from '@/assets/images/project1.png'
+import project2 from '@/assets/images/project2.png'
+import project3 from '@/assets/images/project3.png'
+import project4 from '@/assets/images/project4.png'
+
 // Interactive State for FAQ Accordion
 const activeFaqIndex = ref(0)
 const toggleFaq = (index) => {
@@ -446,28 +451,28 @@ const projects = ref([
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
     client: "Greenfield Property Group",
     budget: "$8,500",
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80"
+    image: project1
   },
   {
     title: "Commercial Development Mapping",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
     client: "UrbanCore Development",
     budget: "$15,200",
-    image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80"
+    image: project2
   },
   {
     title: "Infrastructure Development Land Survey",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
     client: "MetroBuild Engineering",
     budget: "$24,000",
-    image: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=800&q=80"
+    image: project3
   },
   {
     title: "Construction Layout Survey for Office Complex",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
     client: "Summit Construction Co.",
     budget: "$12,400",
-    image: "https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=800&q=80"
+    image: project4
   }
 ])
 </script>
