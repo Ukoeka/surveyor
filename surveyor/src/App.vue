@@ -38,21 +38,21 @@
       </div>
 
       <div class="relative z-10 bg-white text-gray-900 border-t border-gray-100 grid grid-cols-1 md:grid-cols-3  mx-auto w-[80%]">
-        <div class="p-8 border-b md:border-b-0 md:border-r border-gray-100 flex items-start gap-4">
+        <div class="p-10 border-b md:border-b-0 md:border-r border-gray-300 flex items-start gap-4">
           <div class="text-xl mt-1 text-emerald-800">✦</div>
           <div>
             <h4 class="font-semibold text-sm tracking-wide">Proven Industry Experience</h4>
             <p class="text-xs text-gray-500 mt-1 leading-relaxed">Trusted by developers and property owners for reliable land surveying solutions.</p>
           </div>
         </div>
-        <div class="p-8 border-b md:border-b-0 md:border-r border-gray-100 flex items-start gap-4">
+        <div class="p-10 border-b md:border-b-0 md:border-r border-gray-300 flex items-start gap-4">
           <div class="text-xl mt-1 text-emerald-800">✦</div>
           <div>
             <h4 class="font-semibold text-sm tracking-wide">Accuracy You Can Rely On</h4>
             <p class="text-xs text-gray-500 mt-1 leading-relaxed">Delivering precise measurements using advanced surveying technology.</p>
           </div>
         </div>
-        <div class="p-8 flex items-start gap-4">
+        <div class="p-10 flex items-start gap-4">
           <div class="text-xl mt-1 text-emerald-800">✦</div>
           <div>
             <h4 class="font-semibold text-sm tracking-wide">Trusted by Leading Projects</h4>
