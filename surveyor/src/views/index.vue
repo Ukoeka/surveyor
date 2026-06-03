@@ -62,17 +62,17 @@
 
         <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-stretch">
           <div class="md:col-span-6 relative group overflow-hidden h-[400px]">
-            <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=800&q=80" class="w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="Survey Team Work">
+            <img src="@/assets/images/about.png" class="w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="Survey Team Work">
             <div class="absolute bottom-6 left-6 bg-white p-6 shadow-xl max-w-[160px]">
               <span class="text-3xl font-bold text-gray-900 block tracking-tight">320+</span>
               <span class="text-[10px] uppercase font-bold tracking-widest text-gray-400 mt-1 block">Satisfy Client</span>
             </div>
           </div>
           <div class="md:col-span-3 overflow-hidden h-[400px] group">
-            <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=500&q=80" class="w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="Surveyor equipment closeup">
+            <img src="@/assets/images/about2.png" class="w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="Surveyor equipment closeup">
           </div>
           <div class="md:col-span-3 overflow-hidden h-[400px] group">
-            <img src="https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=500&q=80" class="w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="Site analysis mapping">
+            <img src="@/assets/images/about3.png" class="w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="Site analysis mapping">
           </div>
         </div>
       </div>
