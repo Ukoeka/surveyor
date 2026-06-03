@@ -1,101 +1,30 @@
-<script setup>
-import { ref } from 'vue'
 
-// Interactive State for FAQ Accordion
-const activeFaqIndex = ref(0)
-const toggleFaq = (index) => {
-  activeFaqIndex.value = activeFaqIndex.value === index ? null : index
-}
-
-// FAQ Dataset
-const faqs = ref([
-  {
-    question: "What types of heavy equipment do you offer for rent?",
-    answer: "We provide a wide range of heavy equipment including excavators, bulldozers, wheel loaders, motor graders, cranes, forklifts, compactors, and backhoes. Our fleet is regularly maintained to ensure optimal performance for construction, mining, roadwork, landscaping, and industrial projects."
-  },
-  {
-    question: "How long can I rent the equipment?",
-    answer: "Our rental periods are completely flexible. We offer daily, weekly, and monthly rates tailored to your specific project timeline."
-  },
-  {
-    question: "Do you provide operators with the equipment?",
-    answer: "Yes, we can provide certified, highly experienced operators with our machinery to ensure safety, efficiency, and precision on your field site."
-  },
-  {
-    question: "What happens if the equipment breaks down during the rental period?",
-    answer: "In the rare event of a mechanical issue, our rapid-response support crew will either repair the machinery directly on-site or dispatch an immediate replacement."
-  },
-  {
-    question: "How do I request a quote or reserve equipment?",
-    answer: "You can use our appointment booking form below, or reach out directly via our contact info line to get an immediate customized estimate."
-  },
-  {
-    question: "Do you offer delivery and pickup services?",
-    answer: "Absolutely. We manage logistical drop-off and pickup directly to and from your designated geographic coordinates or project site."
-  }
-])
-
-// Projects Dataset
-const projects = ref([
-  {
-    title: "Residential Boundary Survey Project",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
-    client: "Greenfield Property Group",
-    budget: "$8,500",
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    title: "Commercial Development Mapping",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
-    client: "UrbanCore Development",
-    budget: "$15,200",
-    image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    title: "Infrastructure Development Land Survey",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
-    client: "MetroBuild Engineering",
-    budget: "$24,000",
-    image: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    title: "Construction Layout Survey for Office Complex",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
-    client: "Summit Construction Co.",
-    budget: "$12,400",
-    image: "https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=800&q=80"
-  }
-])
-</script>
 
 <template>
   <div class="min-h-screen bg-white text-gray-900 font-sans selection:bg-emerald-800 selection:text-white scroll-smooth">
     
     <header class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-gray-100">
       <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-        <a href="#" class="text-2xl font-bold tracking-tight text-gray-900">Geovey</a>
+        <a href="#" class="text-2xl font-bold tracking-tight text-gray-900">Smart Surveyors</a>
         <nav class="hidden md:flex items-center gap-8 text-xs font-semibold tracking-widest text-gray-500 uppercase">
           <a href="#home" class="text-emerald-700">Home</a>
           <a href="#about" class="hover:text-gray-900 transition">About</a>
           <a href="#services" class="hover:text-gray-900 transition">Services</a>
-          <div class="flex items-center gap-1 cursor-pointer hover:text-gray-900 transition">
-            <span>Pages</span>
-            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
-          </div>
+          
           <a href="#contact" class="hover:text-gray-900 transition">Contact</a>
         </nav>
         <a href="#appointment" class="border border-gray-900 px-5 py-2.5 text-xs font-semibold tracking-wider hover:bg-gray-900 hover:text-white transition">Get Started</a>
       </div>
     </header>
 
-    <section id="home" class="relative bg-neutral-900 text-white min-h-[640px] flex flex-col justify-between pt-20 pb-0">
-      <div class="absolute inset-0 z-0 opacity-40 mix-blend-multiply overflow-hidden">
+    <section id="home" class="relative bg-neutral-900 text-white min-h-[840px]  flex flex-col justify-between pt-20 pb-0">
+      <div class="absolute inset-0 z-0 opacity-90 mix-blend-multiply overflow-hidden ">
         <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1920&q=80" class="w-full h-full object-cover object-center" alt="Surveyor Background">
       </div>
 
-      <div class="relative z-10 max-w-7xl mx-auto px-6 w-full mt-auto mb-16 grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
+      <div class="relative z-10 mx-auto px-6 w-[80%] mt-auto mb-16 grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
         <div class="lg:col-span-8">
-          <span class="text-[10px] tracking-widest uppercase font-bold text-gray-400 block mb-3">Welcome to Geovey</span>
+          <span class="text-[10px] tracking-widest uppercase font-bold text-gray-400 block mb-3">Welcome to Smart Surveyors</span>
           <h1 class="text-4xl md:text-6xl font-light tracking-tight leading-tight max-w-3xl">
             Explore the Land with Precision & Expertise
           </h1>
@@ -108,7 +37,7 @@ const projects = ref([
         </div>
       </div>
 
-      <div class="relative z-10 bg-white text-gray-900 border-t border-gray-100 grid grid-cols-1 md:grid-cols-3 max-w-7xl mx-auto w-full">
+      <div class="relative z-10 bg-white text-gray-900 border-t border-gray-100 grid grid-cols-1 md:grid-cols-3  mx-auto w-[80%]">
         <div class="p-8 border-b md:border-b-0 md:border-r border-gray-100 flex items-start gap-4">
           <div class="text-xl mt-1 text-emerald-800">✦</div>
           <div>
@@ -134,7 +63,7 @@ const projects = ref([
     </section>
 
     <section id="about" class="py-24 bg-neutral-50 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:24px_24px]">
-      <div class="max-w-7xl mx-auto px-6">
+      <div class="w-[80%] mx-auto px-6">
         <div class="max-w-4xl">
           <span class="text-[10px] tracking-widest uppercase font-bold text-gray-400 block mb-4">About Us</span>
           <h2 class="text-3xl md:text-5xl font-light tracking-tight leading-tight text-gray-900 mb-8">
@@ -488,3 +417,72 @@ const projects = ref([
 
   </div>
 </template>
+<script setup>
+import { ref } from 'vue'
+
+// Interactive State for FAQ Accordion
+const activeFaqIndex = ref(0)
+const toggleFaq = (index) => {
+  activeFaqIndex.value = activeFaqIndex.value === index ? null : index
+}
+
+// FAQ Dataset
+const faqs = ref([
+  {
+    question: "What types of heavy equipment do you offer for rent?",
+    answer: "We provide a wide range of heavy equipment including excavators, bulldozers, wheel loaders, motor graders, cranes, forklifts, compactors, and backhoes. Our fleet is regularly maintained to ensure optimal performance for construction, mining, roadwork, landscaping, and industrial projects."
+  },
+  {
+    question: "How long can I rent the equipment?",
+    answer: "Our rental periods are completely flexible. We offer daily, weekly, and monthly rates tailored to your specific project timeline."
+  },
+  {
+    question: "Do you provide operators with the equipment?",
+    answer: "Yes, we can provide certified, highly experienced operators with our machinery to ensure safety, efficiency, and precision on your field site."
+  },
+  {
+    question: "What happens if the equipment breaks down during the rental period?",
+    answer: "In the rare event of a mechanical issue, our rapid-response support crew will either repair the machinery directly on-site or dispatch an immediate replacement."
+  },
+  {
+    question: "How do I request a quote or reserve equipment?",
+    answer: "You can use our appointment booking form below, or reach out directly via our contact info line to get an immediate customized estimate."
+  },
+  {
+    question: "Do you offer delivery and pickup services?",
+    answer: "Absolutely. We manage logistical drop-off and pickup directly to and from your designated geographic coordinates or project site."
+  }
+])
+
+// Projects Dataset
+const projects = ref([
+  {
+    title: "Residential Boundary Survey Project",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+    client: "Greenfield Property Group",
+    budget: "$8,500",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    title: "Commercial Development Mapping",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+    client: "UrbanCore Development",
+    budget: "$15,200",
+    image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    title: "Infrastructure Development Land Survey",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+    client: "MetroBuild Engineering",
+    budget: "$24,000",
+    image: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    title: "Construction Layout Survey for Office Complex",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+    client: "Summit Construction Co.",
+    budget: "$12,400",
+    image: "https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=800&q=80"
+  }
+])
+</script>
