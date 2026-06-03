@@ -333,7 +333,7 @@
               <img src="@/assets/images/service1.png" class="w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="Land survey development article">
             </div>
             <div class="p-6">
-              <span class="text-[9px] font-bold text-gray-400 tracking-wider block mb-2">March 10, 2026</span>
+              <span class="text-[9px] font-bold text-gray-400 tracking-wider block mb-2">April 10, 2026</span>
               <h4 class="font-semibold text-sm leading-snug text-gray-900 group-hover:text-emerald-800 transition">The Role of Land Surveyors in Property Development</h4>
             </div>
           </div>
