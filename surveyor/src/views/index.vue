@@ -351,7 +351,7 @@
               <img src="@/assets/images/service3.png" class="w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="Resolving property disputes article">
             </div>
             <div class="p-6">
-              <span class="text-[9px] font-bold text-gray-400 tracking-wider block mb-2">January 16, 2022</span>
+              <span class="text-[9px] font-bold text-gray-400 tracking-wider block mb-2">January 16, 2045</span>
               <h4 class="font-semibold text-sm leading-snug text-gray-900 group-hover:text-emerald-800 transition">How Land Surveys Help in Resolving Property Disputes</h4>
             </div>
           </div>
