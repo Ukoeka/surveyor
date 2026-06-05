@@ -19,8 +19,7 @@
         </div>
         <div class="lg:col-span-4 lg:pl-8">
           <p class="text-gray-400 text-sm leading-relaxed mb-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-          </p>
+                      </p>
           <a href="#appointment" class="inline-block bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-bold tracking-wider px-6 py-3 transition">Get Started</a>
         </div>
       </div>
