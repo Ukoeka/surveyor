@@ -12,7 +12,7 @@
 
       <div class="relative z-10 mx-auto px-6 w-[80%] mt-auto mb-16 grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
         <div class="lg:col-span-8">
-          <span class="text-[10px] tracking-widest uppercase font-bold text-gray-400 block mb-3">Welcome to Propsensgroup</span>
+          <span class="text-[10px] tracking-widest uppercase font-bold text-gray-400 block mb-3">Welcome to Propsensegroup</span>
           <h1 class="text-4xl md:text-6xl font-light tracking-tight leading-tight max-w-3xl">
             Explore the Land with Precision & Expertise
           </h1>
@@ -20,7 +20,7 @@
         <div class="lg:col-span-4 lg:pl-8">
           <p class="text-gray-400 text-sm leading-relaxed mb-6">
                       </p>
-          <a href="#appointment" class="inline-block bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-bold tracking-wider px-6 py-3 transition">Get Started</a>
+          <a href="https://cal.com/propsens" target="_blank" class="inline-block bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-bold tracking-wider px-6 py-3 transition">Get Started</a>
         </div>
       </div>
 
@@ -58,7 +58,7 @@
 
             From single-dwelling valuations to large-scale portfolio assessments, Propsense combines qualified professional expertise with proprietary data frameworks to produce reports that meet the demands of lenders, developers, investors, legal professionals, and public institutions alike.
           </p>
-          <a href="#services" class="inline-block bg-emerald-800 hover:bg-emerald-900 text-white text-xs font-bold tracking-wider px-6 py-3 transition mb-16">Get Started</a>
+          <a href="https://cal.com/propsens" target="_blank" class="inline-block bg-emerald-800 hover:bg-emerald-900 text-white text-xs font-bold tracking-wider px-6 py-3 transition mb-16">Get Started</a>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-stretch">
