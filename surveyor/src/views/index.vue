@@ -136,7 +136,7 @@
             <h2 class="text-3xl md:text-5xl font-light tracking-tight">Why Choose Our Surveying Expertise</h2>
           </div>
           <div class="lg:col-span-5 text-gray-500 text-xs leading-relaxed lg:pt-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            tur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </div>
         </div>
 
