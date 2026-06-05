@@ -53,9 +53,11 @@
       <div class="w-[80%] mx-auto px-6">
         <div class="max-w-4xl">
           <span class="text-[10px] tracking-widest uppercase font-bold text-gray-400 block mb-4">About Us</span>
-          <h2 class="text-3xl md:text-5xl font-light tracking-tight leading-tight text-gray-900 mb-8">
-            Harnessing Advanced Survey Technology to Transform Complex Field Data into Clear, Actionable Insights for Confident Decision-Making
-          </h2>
+          <p class="text-3xl md:text-5xl font-light tracking-tight leading-tight text-gray-900 mb-8">
+            Propsense Consulting is a full-service real estate surveying and advisory firm providing independent, evidence-based property intelligence to clients across the residential, commercial, and industrial sectors. Founded on the principles of professional rigour, transparent methodology, and client-centred service, the firm delivers actionable insights that underpin high-stakes property decisions. <br>
+
+            From single-dwelling valuations to large-scale portfolio assessments, Propsense combines qualified professional expertise with proprietary data frameworks to produce reports that meet the demands of lenders, developers, investors, legal professionals, and public institutions alike.
+          </p>
           <a href="#services" class="inline-block bg-emerald-800 hover:bg-emerald-900 text-white text-xs font-bold tracking-wider px-6 py-3 transition mb-16">Get Started</a>
         </div>
 
