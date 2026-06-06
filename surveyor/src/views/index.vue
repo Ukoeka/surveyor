@@ -80,7 +80,7 @@
     </section>
 
     <section id="values" class="py-24 bg-white text-gray-900 border-b border-gray-100">
-  <div class="max-w-7xl mx-auto px-6">
+  <div class="w-[80%] mx-auto px-6">
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-16">
       <div class="lg:col-span-4">
         <span class="text-[10px] tracking-widest uppercase font-bold text-gray-400 block mt-2">Our Values</span>
@@ -125,6 +125,25 @@
               </p>
             </div>
           </div>
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-4 py-8 items-start">
+            <div class="md:col-span-4">
+              <h3 class="text-xl font-normal text-gray-900">Regulatory Standing</h3>
+              <p class="text-sm text-gray-900 leading-relaxed font-light">
+                Propsense Consulting operates in compliance with all applicable professional standards. Key professional affiliations and regulatory frameworks include:
+              </p>
+            </div>
+            
+            <div class="md:col-span-8">
+              <p class="text-sm text-gray-900 leading-relaxed font-light">
+                
+               <li class="text-sm text-gray-900 leading-relaxed font-light">Member firm registered with the Royal Institution of Chartered Surveyors (RICS).</li>
+                <li class="text-sm text-gray-900 leading-relaxed font-light">Regulated by RICS under the Red Book Global Standards (RICS Valuation — Professional Standards 2022)</li>
+                <li class="text-sm text-gray-900 leading-relaxed font-light">Compliant with IVSC International Valuation Standards for cross-border and institutional instructions.</li>
+                <li class="text-sm text-gray-900 leading-relaxed font-light">Professional Indemnity Insurance held at levels commensurate with scope of instruction</li>
+                <li class="text-sm text-gray-900 leading-relaxed font-light">All lead valuers hold MRICS or FRICS designation</li>
+              </p>
+            </div>
+          </div>
 
           
         </div>
@@ -152,27 +171,7 @@
   </div>
 </section>
 
-<section id="team" class="py-24 bg-white text-gray-900">
-  <div class="max-w-7xl mx-auto px-6 text-center">
-    <span class="text-[10px] tracking-widest uppercase font-bold text-gray-400 block mb-3">Our Team</span>
-    <h2 class="text-3xl md:text-5xl font-light tracking-tight text-gray-900 mb-16">Meet Our Expert Surveying Team</h2>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
-      <div v-for="(member, idx) in team" :key="idx" class="group flex flex-col">
-        <div class="aspect-square w-full overflow-hidden bg-gray-100 mb-5 relative shadow-sm">
-          <img 
-            :src="member.image" 
-            :alt="member.name" 
-            class="w-full h-full object-cover group-hover:scale-102 transition duration-300 filter contrast-[1.02]"
-            @error="$event.target.src = member.fallback"
-          />
-        </div>
-        <h3 class="text-xl font-normal text-gray-900 tracking-tight mb-1">{{ member.name }}</h3>
-        <span class="text-xs text-gray-400 font-light">{{ member.role }}</span>
-      </div>
-    </div>
-  </div>
-</section>
 
     <section id="services" class="py-24 bg-[#0a2e1d] text-white">
       <div class="w-[80%] mx-auto px-6 text-center">
@@ -359,6 +358,29 @@
       </div>
     </section>
 
+
+    <section id="team" class="py-24 bg-white text-gray-900">
+  <div class="w-[80%] mx-auto px-6 text-center">
+    <span class="text-[10px] tracking-widest uppercase font-bold text-gray-400 block mb-3">Our Team</span>
+    <h2 class="text-3xl md:text-5xl font-light tracking-tight text-gray-900 mb-16">Meet Our Expert Surveying Team</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+      <div v-for="(member, idx) in team" :key="idx" class="group flex flex-col">
+        <div class="aspect-square w-full overflow-hidden bg-gray-100 mb-5 relative shadow-sm border-b border-gray-100">
+          <img 
+            :src="member.image" 
+            :alt="member.name" 
+            class="w-full h-full object-cover group-hover:scale-102 transition duration-300 filter contrast-[1.02]"
+            @error="$event.target.src = member.fallback"
+          />
+        </div>
+        <h3 class="text-xl font-normal text-gray-900 tracking-tight mb-1">{{ member.name }}</h3>
+        <span class="text-xs text-gray-400 font-light">{{ member.role }}</span>
+      </div>
+    </div>
+  </div>
+</section>
+
     <section id="appointment" class="py-20 bg-white">
       <div class="w-[80%] mx-auto px-6">
         <div class="grid grid-cols-1 lg:grid-cols-12 items-stretch shadow-2xl">
@@ -396,7 +418,7 @@
     </section>
 
     <section class="py-24 bg-white text-gray-900 border-t border-gray-100">
-      <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+      <div class="w-[80%] mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
         <div class="lg:col-span-4 sticky top-28">
           <span class="text-[10px] tracking-widest uppercase font-bold text-gray-400 block mb-3">Faq</span>
           <h2 class="text-3xl md:text-4xl font-light tracking-tight text-gray-900 mb-6">Frequently Ask Question</h2>
@@ -419,7 +441,7 @@
     </section>
 
     <section class="py-24 bg-neutral-50 text-gray-900">
-      <div class="max-w-7xl mx-auto px-6 text-center">
+      <div class="w-[80%] mx-auto px-6 text-center">
         <span class="text-[10px] tracking-widest uppercase font-bold text-gray-400 block mb-3">Our Blog</span>
         <h2 class="text-3xl font-light tracking-tight mb-16">Read our latest news and articles</h2>
 
