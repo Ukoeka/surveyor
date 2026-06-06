@@ -461,7 +461,7 @@
             </div>
             <div class="p-6">
               <span class="text-[9px] font-bold text-gray-400 tracking-wider block mb-2">March 10, 2026</span>
-              <h4 class="font-semibold text-sm leading-snug text-gray-900 group-hover:text-emerald-800 transition">Understanding the Different Types of Land Surveys</h4>
+              <h4 class="font-semibold text-sm leading-snug text-gray-900 group-hover:text-emerald-800 transition">Understanding the Different Types of Land Surveys Available</h4>
             </div>
           </div>
           <div class="bg-white shadow-sm overflow-hidden group cursor-pointer border border-gray-100">
