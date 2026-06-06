@@ -12,7 +12,7 @@
 
       <div class="relative z-10 mx-auto px-6 w-[80%] mt-auto mb-16 grid grid-cols-1 lg:grid-cols-12 gap-8 items-end">
         <div class="lg:col-span-8">
-          <span class="text-[10px] tracking-widest uppercase font-bold text-gray-400 block mb-3">Welcome to Propsensegroup</span>
+          <span class="text-[10px] tracking-widest uppercase font-bold text-gray-400 block mb-3">Welcome to Propsensgroup</span>
           <h1 class="text-4xl md:text-6xl font-light tracking-tight leading-tight max-w-3xl">
             Explore the Land with Precision & Expertise
           </h1>
@@ -78,6 +78,101 @@
         </div>
       </div>
     </section>
+
+    <section id="values" class="py-24 bg-white text-gray-900 border-b border-gray-100">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-16">
+      <div class="lg:col-span-4">
+        <span class="text-[10px] tracking-widest uppercase font-bold text-gray-400 block mt-2">Our Values</span>
+      </div>
+      <div class="lg:col-span-8">
+        <h2 class="text-3xl md:text-5xl font-light tracking-tight leading-[1.15] text-gray-900">
+          The Core Values That Guide Our Commitment to Precision, Integrity, and Reliable Surveying Solutions
+        </h2>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+      <div class="lg:col-span-7 space-y-10">
+        <p class="text-sm text-gray-400 leading-relaxed font-light max-w-xl">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+        </p>
+
+        <div class="divide-y divide-gray-100 border-t border-b border-gray-100">
+
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-4 py-8 items-start">
+            <div class="md:col-span-4">
+              <h3 class="text-xl font-normal text-gray-900">Mission Statement</h3>
+            </div>
+            <div class="md:col-span-8">
+              <p class="text-sm text-gray-900 leading-relaxed font-light">
+                To provide clients with the most accurate, defensible, and professionally robust property assessments available — delivered with speed, clarity, and complete independence.
+              </p>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-4 py-8 items-start">
+            <div class="md:col-span-4">
+              <h3 class="text-xl font-normal text-gray-900">Our Values</h3>
+            </div>
+            <div class="md:col-span-8">
+              <p class="text-sm text-gray-900 leading-relaxed font-light">
+                
+               <li class="text-sm text-gray-900 leading-relaxed font-light">Independence: All opinions and valuations are free from third-party influence, conflict of interest, or commercial bias.</li>
+                <li class="text-sm text-gray-900 leading-relaxed font-light">Precision: We apply recognised methodology, current market evidence, and professional judgement in equal measure.</li>
+                <li class="text-sm text-gray-900 leading-relaxed font-light">Accountability: Every report is signed by a chartered professional and carries full professional indemnity cover.</li>
+                <li class="text-sm text-gray-900 leading-relaxed font-light">Transparency: Our methodology is documented, auditable, and communicated clearly to clients at every stage.</li>
+                <li class="text-sm text-gray-900 leading-relaxed font-light">Responsiveness: We operate with defined turnaround standards and maintain active communication throughout each instruction</li>
+              </p>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+
+      <div class="lg:col-span-5 bg-gray-50/70 p-6 flex flex-col md:flex-row gap-6 items-center rounded-sm">
+        <div class="w-full md:w-1/2 aspect-[4/5] bg-gray-200 overflow-hidden shadow-sm">
+          <img 
+            src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80" 
+            alt="James Rodriguez" 
+            class="w-full h-full object-cover grayscale contrast-125"
+          />
+        </div>
+        <div class="w-full md:w-1/2 flex flex-col justify-between py-2">
+          <p class="text-xs italic text-gray-500 font-light leading-relaxed mb-6">
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit."
+          </p>
+          <div>
+            <h5 class="text-xs font-bold text-gray-900">James Rodriguez</h5>
+            <span class="text-[10px] text-gray-400 block mt-0.5">CEO of Geovey</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="team" class="py-24 bg-white text-gray-900">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <span class="text-[10px] tracking-widest uppercase font-bold text-gray-400 block mb-3">Our Team</span>
+    <h2 class="text-3xl md:text-5xl font-light tracking-tight text-gray-900 mb-16">Meet Our Expert Surveying Team</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+      <div v-for="(member, idx) in team" :key="idx" class="group flex flex-col">
+        <div class="aspect-square w-full overflow-hidden bg-gray-100 mb-5 relative shadow-sm">
+          <img 
+            :src="member.image" 
+            :alt="member.name" 
+            class="w-full h-full object-cover group-hover:scale-102 transition duration-300 filter contrast-[1.02]"
+            @error="$event.target.src = member.fallback"
+          />
+        </div>
+        <h3 class="text-xl font-normal text-gray-900 tracking-tight mb-1">{{ member.name }}</h3>
+        <span class="text-xs text-gray-400 font-light">{{ member.role }}</span>
+      </div>
+    </div>
+  </div>
+</section>
 
     <section id="services" class="py-24 bg-[#0a2e1d] text-white">
       <div class="w-[80%] mx-auto px-6 text-center">
@@ -416,6 +511,27 @@ const activeFaqIndex = ref(0)
 const toggleFaq = (index) => {
   activeFaqIndex.value = activeFaqIndex.value === index ? null : index
 }
+
+const team = ref([
+  {
+    name: "Michael Carter",
+    role: "Senior Land Surveyor",
+    image: "/images/team1.jpg",
+    fallback: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    name: "Daniel Rodriguez",
+    role: "Survey Project Manager",
+    image: "/images/team2.jpg",
+    fallback: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    name: "James Mitchell",
+    role: "Geospatial Data Analyst",
+    image: "/images/team3.jpg",
+    fallback: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=500&q=80"
+  }
+])
 
 // FAQ Dataset
 const faqs = ref([
