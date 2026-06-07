@@ -594,7 +594,7 @@ const projects = ref([
   },
   {
     title: "Commercial Development Mapping",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+    desc: "Lorem ipsum dolor sit amet, con. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
     client: "UrbanCore Development",
     budget: "$15,200",
     image: project2
