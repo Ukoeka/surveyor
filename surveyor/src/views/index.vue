@@ -587,7 +587,7 @@ const faqs = ref([
 const projects = ref([
   {
     title: "Residential Boundary Survey Project",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+    desc: "Lorem ipsum dolor sit amet, consectetur ad luctus nec ullamcorper mattis, pulvinar dapibus leo.",
     client: "Greenfield Property Group",
     budget: "$8,500",
     image: project1
